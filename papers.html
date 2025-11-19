@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Papers – Ks Alizhan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1 class="site-title">Ks Alizhan</h1>
+      <p class="tagline">Papers / Projects</p>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="papers.html">Papers</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="notes.html">Notes</a>
+        <a href="writing.html">Writing</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Selected work</h2>
+        <ul>
+          <li>
+            <strong>Project or Paper Title 1</strong><br>
+            Short one–sentence description of what this is about.
+            [<a href="#">pdf</a>] [<a href="#">code</a>]
+          </li>
+          <li>
+            <strong>Project or Paper Title 2</strong><br>
+            Another short description.
+            [<a href="#">pdf</a>] [<a href="#">website</a>]
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>All work</h2>
+        <p>You can list everything here, ordered by date, topic, or importance.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Ks Alizhan</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
