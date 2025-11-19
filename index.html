@@ -1,11 +1,66 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Salizhan Kylychbekov</title>
-  </head>
-  <body>
-    <h1>Hi, I'm  Salizhan</h1>
-    <p>Welcome to my personal website!</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ks Alizhan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1 class="site-title">Ks Alizhan</h1>
+      <p class="tagline">Personal website</p>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="papers.html">Papers</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="notes.html">Notes</a>
+        <a href="writing.html">Writing</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>About me</h2>
+        <p>
+          Hi! I'm <strong>Ks Alizhan</strong>. This is my personal website where I collect
+          things I'm working on, notes I'm writing, and other bits of my life and interests.
+        </p>
+        <p>
+          You can contact me at
+          <a href="mailto:your.email@example.com">your.email@example.com</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2>Currently</h2>
+        <ul>
+          <li>Working on: <em>something cool here</em></li>
+          <li>Learning: <em>e.g. machine learning, web dev, etc.</em></li>
+          <li>Interested in: <em>add your interests</em></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Links</h2>
+        <ul>
+          <li><a href="https://github.com/ksalizhan">GitHub</a></li>
+          <li><a href="papers.html">Papers / Projects</a></li>
+          <li><a href="notes.html">Notes</a></li>
+          <li><a href="writing.html">Writing</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Ks Alizhan</p>
+    </footer>
+  </div>
+
+  <script>
+    // Automatically set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
 </html>
